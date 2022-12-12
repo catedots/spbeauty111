@@ -4,7 +4,7 @@ import ListElement from "./ListElement";
 function Addresses() {
 
     return (
-        <div className='d-inline-flex flex-column gap-2 mt-4'>
+        <div className='d-inline-flex flex-column gap-2 mt-4 address-frame'>
             <div className='title'>Адреса заведений</div>
             <div className='d-inline-flex flex-column gap-3'>
                 <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
