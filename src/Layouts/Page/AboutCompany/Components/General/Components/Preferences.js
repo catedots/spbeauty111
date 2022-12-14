@@ -10,8 +10,9 @@ function Preferences() {
                 'Парикмахерская'
             ]}/>
             <TitledTextInput title='Основной телефон для связи' def='+7 (912) 345-67-89'/>
+            <div className='d-inline-flex flex-column gap-4 mt-2'>
             <PrimaryButton>Сохранить</PrimaryButton>
-        </div>
+        </div> </div>
     );
 }
 
