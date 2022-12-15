@@ -3,6 +3,7 @@ import Preferences from "./Components/Preferences";
 function General() {
     return (
         <div className='d-inline-flex flex-column my-5'>
+           
             <Profile/> {/* Фото компании, название, тип и адрес */}
             <Preferences/> {/* Инпуты, где можно поменять название, тип и адрес */}
         </div>
